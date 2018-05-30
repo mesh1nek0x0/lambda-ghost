@@ -29,13 +29,15 @@ function *processEvent(event, context, callback) {
         });
         console.log(title);
 
+        yield sleep(3000);
+
         /*** you can pass node js variable to evaluating by Template Literals.
         (notice) coulud't pass normal variable. ***/
-        let child = 2;
-        const ipLink = yield page.evaluate(function(s) {
-            return document.querySelector(s).innerHTML;
-        }, `#manpage > div.mp > ul:nth-child(6) > li:nth-child(${child})`);
-        console.log(ipLink);
+        let id = 'operations-tag-Request_inspection';
+        const element = yield page.evaluate(function(s) {
+            return document.querySelector('#operations-tag-Request_inspection > small > div > p').innerHTML;
+        }, `#operations-tag-Request_inspection > small > div > p`);
+        console.log(element);
 
 
         /*** you can post data with form. ***/
