@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mesh1neko/lambda-ghost.git"
+    "url": "git+https://github.com/mesh1nek0x0/lambda-ghost.git"
   },
   "keywords": [
     "phantom",
@@ -21,9 +21,9 @@
   "author": "mesh1nek0x0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mesh1neko/lambda-ghost/issues"
+    "url": "https://github.com/mesh1nek0x0/lambda-ghost/issues"
   },
-  "homepage": "https://github.com/mesh1neko/lambda-ghost#readme",
+  "homepage": "https://github.com/mesh1nek0x0/lambda-ghost#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
     "node-lambda": "^0.11.3",
