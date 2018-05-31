@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/mesh1nek0x0/lambda-ghost#readme",
   "dependencies": {
-    "bluebird": "^3.5.0",
     "node-lambda": "^0.11.3",
     "phantom": "^4.0.5",
     "sleep-promise": "^2.0.0"
